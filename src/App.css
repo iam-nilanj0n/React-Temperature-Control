@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App{
+  background-color: whitesmoke;
+}
+.container{
+  height: 70vh;
+  width: 30vw;
+  border: 2px solid grey;
+  margin: 10vh 0 0 35vw;
+  background-color: rgba(1, 10, 48, 0.879);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.circle{
+  height: 30vh;
+  width: 30vh;
+  border: 6px solid rgb(255, 255, 255);
+  margin: 10vh 0 2vh 7.75vw;
+  border-radius: 15vh;
+}
+.circle p{
+  font-size: 2.5rem;
+  font-weight: bolder;
+  margin: 10vh 0 0 4.5vw;
+  color: antiquewhite;
+}
+/* buttonSection is here */
+.buttonSection{
+  display: flex;
+  flex-direction: row;
+  margin: 2vh 0 0 6.75vw;
+}
+button{
+  font-size: 2.5rem;
+  height: 10vh;
+  width: 10vh;
+  border: 2px solid rgb(200, 143, 253);
+  border-radius: 5vh;
+  box-shadow: 0 5px gray;
+  margin: 2vh 2vw;
+}
+
+button:hover{
+  cursor: pointer;
+  background-color: aliceblue;
+}
+
+button:active{
+  transform: translateY(2.5px);
+  box-shadow: 0 2.5px rgb(58, 58, 58);
+}
+
+.test{
+  background-color: rgb(0, 200, 255);
+}
